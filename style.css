@@ -72,8 +72,8 @@ body { background-color: #0d0d0f; color: #ffffff; }
 .creator {
     text-align: center;
     padding: 30px;
-    background-color: #050505;
-    border-top: 2px solid #ff3333;
+    background-color: #000000;
+    border-top: 2px solid #ffffff;
 }
 
 .creator img {
@@ -81,18 +81,19 @@ body { background-color: #0d0d0f; color: #ffffff; }
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #ff3333;
+    border: 3px solid #ffffff;
     margin-bottom: 10px;
+    filter: grayscale(100%); /* Desaturates the image to true B&W */
 }
 
 .creator h3 {
-    color: #aaa;
+    color: #888888;
     font-size: 0.9rem;
     margin-bottom: 5px;
 }
 
 .creator p {
-    color: #ff3333;
+    color: #ffffff;
     font-size: 1.3rem;
     font-weight: bold;
 }
